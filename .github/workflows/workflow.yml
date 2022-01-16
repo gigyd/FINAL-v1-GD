@@ -9,8 +9,7 @@ on:
   pull_request:
     branches:
       -master
- 
- jobs:
+  jobs:
    # Run all unit tests.
    run-tests:
      runs-on: ubuntu-latest
